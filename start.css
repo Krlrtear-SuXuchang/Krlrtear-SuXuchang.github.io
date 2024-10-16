@@ -14,20 +14,20 @@ body{
 }
 
 div{
-background-color:white;
-justify-content:centre;
-align-item:centre;
-display:flex;
-width:100vw;
-height:100vh;
+	background-color:white;
+	justify-content:centre;
+	align-item:centre;
+	display:flex;
+	width:100vw;
+	height:100vh;
 }
 
 h1{
-color:red;
-font-size:15px;
+	color:red;
+	font-size:15px;
 }
 
 p{
-color:black;
-font-size:10px;
+	color:black;
+	font-size:10px;
 }
