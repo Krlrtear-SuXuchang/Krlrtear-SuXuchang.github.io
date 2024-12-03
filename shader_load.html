@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    <title>Shader Downloading</title>
+</head>
+<body>
+<script>
+        // 定义要下载的文件URL
+        const fileUrl = 'ShaderPack.rar';
+        const fileName = 'ShaderPack.rar';
+
+        // 创建一个隐藏的链接元素
+        const link = document.createElement('a');
+        link.href = fileUrl;
+        link.download = fileName;
+        link.style.display = 'none';
+
+        // 将链接元素添加到文档中
+        document.body.appendChild(link);
+
+        // 触发点击事件以开始下载
+        link.click();
+
+        // 从文档中移除链接元素
+        document.body.removeChild(link);
+    </script>
+    <div class="box">
+        <h1>文件下载中...</h1>
+        <h2>仍未开始下载？<a href="ShaderPack.rar">点击此处</a>再次尝试。</h2>
+    </div>
+    <div class="circle">
+    </div>
+</body>
+</html>
