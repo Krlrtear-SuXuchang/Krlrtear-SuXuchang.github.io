@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box{
+    display: flow;
+    margin: 0;
+    padding-bottom:10px ;
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.background{
+    position: absolute;
+    display: flex;
+    margin-top: 80px;
+    padding-bottom:10px ;
+    height: 100%;
+    width: 100%;
+    background-color: #e2e8ee;
+    z-index: 1;
+}
+
+.backimg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.headline{
+    position: absolute;
+    display: flex;
+    margin: 0;
+    padding: 0 ;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: #5c9cd7;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    text-indent: 4em;
+    letter-spacing: 1em;
+    color: #d8ebff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.page{
+    display: grid;
+    margin: 25px;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(226,232,238,0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 10px 10px rgba(226,232,238,0.8);
+    border-color: transparent;
+}
+
+.good1{
+    display: flow;
+    margin: 30px;
+    padding: 20px;
+    justify-content: center;
+    background-color: #f3f3f3;
+    width: 350px;
+    height: 290px;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.7);
+    box-shadow: 6px 8px 8px 5px rgba(0,0,0,0.2);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.good1:hover{
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.3),inset 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+.g1-img{
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding: 0 ;
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    background-color: aquamarine;
+}
+
+.g1-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.g1-title{
+    display: flex;
+    align-items: center;
+    padding-left: 5px ;
+    padding-right: 5px ;
+    margin: 0px ;
+    height: 30px;
+}
+
+.g1-text{
+    display: flex;
+    padding-left: 5px ;
+    padding-right: 5px ;
+    margin-top: 5px ;
+    font-size: 13px;
+}
+
+.g1-t-line{
+    display: inline;
+}
+
+#g-title{
+    color: #161616;
+}
+
+.g1-title{
+    color: #778899;
+}
+
+.intro{
+    text-indent: 2em;
+    color: #6d6d6d;
+}
+
+#creator{
+    text-indent: 5em;
+    font-size: 14px;
+}
+
+#cost{
+    text-indent: 1em;
+    font-size: 14px;
+}
